@@ -1,0 +1,12 @@
+[
+  {
+    "id": 3,
+    "watch_name": "Swatch",
+    "unit_price": 50
+  },
+  {
+    "id": 4,
+    "watch_name": "Casio",
+    "unit_price": 30
+  }
+]

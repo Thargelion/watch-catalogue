@@ -20,7 +20,7 @@ public class CatalogServiceTest {
     void getTotalPrice_getsTotalPrice() {
         // Given
         var expectedPrice = 20L;
-        var input = new String[]{"10"};
+        var input = new Integer[]{10};
         // When
         var actualTotalPrice = subject.getTotalPrice(input);
         // Then

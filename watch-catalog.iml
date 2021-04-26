@@ -18,6 +18,7 @@
         </fileset>
         <fileset id="fileset" name="SpringConfig" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/watchlog/watchcatalog/config/SpringConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/watchlog/watchcatalog/config/GsonConfig.java</file>
         </fileset>
       </configuration>
     </facet>
@@ -63,6 +64,7 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.6" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.boot:spring-boot-devtools:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.4.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.4.5" level="project" />
