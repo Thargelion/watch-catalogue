@@ -24,7 +24,7 @@ Use native mvn:
 mvn spring-boot run
 ```
 
-Or provider executable:
+Or the provided executable:
 
 ```shell
 
