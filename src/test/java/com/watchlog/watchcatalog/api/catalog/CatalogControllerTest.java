@@ -25,7 +25,7 @@ public class CatalogControllerTest {
     @Test
     public void buildCheckoutReturnsTotalPrice() {
         // Given
-        var input = new String[]{"10"};
+        var input = new Integer[]{10};
         var expectedPrice = 20L;
         var expected = new TotalPrice(expectedPrice);
         Mockito.when(catalogHandler.getTotalPrice(input)).thenReturn(expected);
