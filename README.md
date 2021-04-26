@@ -1,5 +1,8 @@
 # Watch Catalogue
 
+![technology Java-14](https://img.shields.io/badge/technology-java_14-green.svg)
+![version](https://img.shields.io/github/v/tag/Thargelion/watch-catalogue?style=plastic)
+
 ## Preamble
 
 This API calculates the final price of list of products. Each product may have a special discount based in the amount of
@@ -94,7 +97,7 @@ Amount.
 1. Receive List of IDS
 2. Build the list of amounts of each id
 3. Look if the item has a discount
-4. In case of discount applies and moves into next id
+4. In case of discount, apply it and move into next id
 5. If no discount was found, applies the regular price
 6. Returns TotalPrice with the sum of all prices.
 
