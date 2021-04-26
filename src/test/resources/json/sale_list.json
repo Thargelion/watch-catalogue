@@ -1,0 +1,20 @@
+[
+  {
+    "item": {
+      "id": 1,
+      "name": "Rolex",
+      "unit_price": 100
+    },
+    "required_amount": 3,
+    "discounted_price": 200
+  },
+  {
+    "item": {
+      "id": 2,
+      "name": "Michael Kors",
+      "unit_price": 80
+    },
+    "required_amount": 2,
+    "discounted_price": 120
+  }
+]
