@@ -7,9 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CatalogController {
 
+    private final CatalogHandler catalogHandler;
+
+    public CatalogController(CatalogHandler catalogHandler) {
+        this.catalogHandler = catalogHandler;
+    }
+
     @PostMapping("/checkout")
     public TotalPrice buildCheckout(String[] data) {
-        return new TotalPrice(20L);
+        return this.catalogHandler.getTotalPrice(data);
     }
 
 }
