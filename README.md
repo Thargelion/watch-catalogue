@@ -112,3 +112,5 @@ Add CI/CD.
 Add proper Metrics and statistics such as P50, P95, and P99.
 
 Elevate coverage.
+
+A different way of dealing with optional discounts is to have default values of minimum amount of 1 and a price equal to the 'regular' price. This reduces the amount of modles required but requires to always calculate a discount.
